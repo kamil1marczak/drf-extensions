@@ -808,7 +808,7 @@ Of course you can use custom [key constructor](#key-constructor):
         object_cache_key_func = CustomObjectKeyConstructor()
         list_cache_key_func = CustomListKeyConstructor()
 
-*New in DRF-extensions development*
+*New in DRF-extensions development version*
 
 You can change cache timeout by providing `object_cache_timeout` or
 `list_cache_timeout` properties in view class:

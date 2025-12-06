@@ -4,3 +4,5 @@ django-filter>=2.1.0
 mock
 ipdb
 cryptography==3.2.1
+django>=4.2.27 # not directly required, pinned by Snyk to avoid a vulnerability
+sqlparse>=0.5.4 # not directly required, pinned by Snyk to avoid a vulnerability
